@@ -1,0 +1,28 @@
+.logo {
+  width: 10rem;
+}
+.nav-button {
+  background-color: transparent;
+  color: black;
+  border: none;
+}
+.home:hover {
+  background-color: rgb(30, 142, 187);
+  border-radius: 5px;
+  transition: all 0.2s ease-in;
+}
+.about:hover {
+  background-color: green;
+  border-radius: 5px;
+  transition: all 0.2s ease-in;
+}
+.mission:hover {
+  background-color: goldenrod;
+  border-radius: 5px;
+  transition: all 0.2s ease-in;
+}
+.join:hover {
+  background-color: red;
+  border-radius: 5px;
+  transition: all 0.2s ease-in;
+}
