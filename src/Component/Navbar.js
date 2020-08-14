@@ -12,12 +12,10 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="NavbarItems">
-        <div className="logo">
-          <img src="logo.png" alt={""} />
+        <div>
+          <img className="logo" src="logo.png" alt={""} />
         </div>
-        <div className="menu-icon" onClick={this.HandleClick}>
-          <i className={this.state.clicked ? "fa fa-times" : "fas fa-bars"}></i>
-        </div>
+        <div className="spacer"></div>
         <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
           {MenuItems.map((item, index) => {
             return (

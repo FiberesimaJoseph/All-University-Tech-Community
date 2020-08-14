@@ -1,5 +1,5 @@
 .NavbarItems {
-  background: darkblue;
+  background: #fff;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -26,18 +26,31 @@
 
 .Nav-Links {
   text-decoration: none;
-  color: #fff;
+  color: black;
   padding: 0.5rem 1rem;
 }
 
 .Nav-Links:hover {
-  background-color: gold;
   border-radius: 5px;
   transition: all 0.2s ease-in;
 }
+.Nav-Links.home:hover {
+  background-color: skyblue;
+}
+.Nav-Links.about:hover {
+  background-color: green;
+}
+.Nav-Links.mission:hover {
+  background-color: goldenrod;
+}
+.Nav-Links.join:hover {
+  background-color: red;
+}
+.spacer {
+  flex: 1;
+}
 
 .logo {
-  width: 150px;
-  height: 150px;
-  margin-right: 500px;
+  width: 10em;
+  margin: 0 20px;
 }
