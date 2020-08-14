@@ -4,3 +4,48 @@
   padding: 0;
   font-family: 'Montserrat', sans-serif;
 }
+
+.container .colored-content-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 1.9rem;
+}
+.content {
+  height: 10rem;
+  color: white;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-blue {
+  background-color: rgb(30, 142, 187);
+}
+.content-green {
+  background-color: green;
+}
+.content-red {
+  background-color: rgb(189, 7, 7);
+}
+.content-orange {
+  background-color: orange;
+}
+.content.content-blue.codelab {
+  grid-column: span 2;
+}
+
+@media only screen and (max-width: 1000px) {
+  .container .colored-content-container {
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 1.2rem;
+  }
+  .content {
+    height: 7rem;
+  }
+  .content.content-blue.codelab {
+    grid-column: span 1;
+  }
+  .content.content-green.technology {
+    grid-column: span 2;
+  }
+}
