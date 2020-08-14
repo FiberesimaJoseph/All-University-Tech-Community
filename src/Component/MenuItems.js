@@ -5,12 +5,12 @@ export const MenuItems = [
     cName: "Nav-Links",
   },
   {
-    title: "About the Community",
+    title: "About Us",
     url: "#",
     cName: "Nav-Links",
   },
   {
-    title: "Community",
+    title: "Our Mission",
     url: "#",
     cName: "Nav-Links",
   },
