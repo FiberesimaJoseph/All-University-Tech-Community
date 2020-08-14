@@ -36,7 +36,6 @@
 }
 .Nav-Links.home:hover {
   background-color: skyblue;
-  border-color: red;
 }
 .Nav-Links.about:hover {
   background-color: green;

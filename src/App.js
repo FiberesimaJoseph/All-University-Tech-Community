@@ -1,5 +1,6 @@
 import React from "react";
 import AppBar from "./components/AppBar";
+import AboutUs from "./Component/AboutUs";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
             Technology Entepreneurship
           </div>
         </div>
+        <AboutUs />
       </div>
     </div>
   );
