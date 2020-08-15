@@ -1,6 +1,6 @@
 import React from 'react'
 import AppBar from './components/AppBar'
-import AboutUs from './Component/AboutUs'
+import AboutUs from './components/AboutUs'
 import ColoredContainer from './components/ColoredContainer'
 
 const App = () => {

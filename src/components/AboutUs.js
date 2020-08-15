@@ -1,0 +1,17 @@
+import React from 'react'
+
+const AboutUs = () => {
+  return (
+    <div className="about-us">
+      <h1>All University Tech Conference</h1>
+      <p>
+        is a conference gathering techology enthusiast,and pratitioners within
+        Nigeria institutions from ND to PHD students for the share of ideas, and
+        exposure to opportunities. it's amies to unite students across the
+        geo-political zones of Nigeria through techology.
+      </p>
+    </div>
+  )
+}
+
+export default AboutUs
