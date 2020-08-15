@@ -1,7 +1,8 @@
-import React from 'react'
-import AppBar from './components/AppBar'
-import AboutUs from './components/AboutUs'
-import ColoredContainer from './components/ColoredContainer'
+import React from "react";
+import AppBar from "./components/AppBar";
+import AboutUs from "./components/AboutUs";
+import ColoredContainer from "./components/ColoredContainer";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -10,9 +11,10 @@ const App = () => {
       <div className="container">
         <ColoredContainer />
         <AboutUs />
+        <Footer />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
