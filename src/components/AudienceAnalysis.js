@@ -3,15 +3,24 @@ import React from 'react'
 const AudienceAnalysis = () => {
   return (
     <div className="main-content">
-      <p className="location">Port-Hacourt, Nigeria</p>
+      <p className="location">
+        {' '}
+        <img
+          src="https://img.icons8.com/wired/64/000000/region-code.png"
+          alt="Location"
+        />
+        Port-Hacourt, Nigeria
+      </p>
       <div className="audience-analysis">
-        <p>Audience Analysis</p>
-        <p>Uniting Students across Nigeria with Technology</p>
+        <p className="audience-analysis-text">Audience Analysis</p>
+        <p className="audience-analysis-text-reason">
+          Uniting Students across Nigeria with Technology
+        </p>
         <div className="compass">
-          <p>
-            <span>North-Central </span>
-            <span>North-East </span>
-            <span>North-West </span>
+          <p className="c1">
+            <span className="nc">North-Central </span>
+            <span className="ne">North-East </span>
+            <span className="nw">North-West </span>
           </p>
         </div>
       </div>

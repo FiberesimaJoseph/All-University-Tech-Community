@@ -2,6 +2,7 @@ import React from 'react'
 import AppBar from './components/AppBar'
 import AboutUs from './components/AboutUs'
 import ColoredContainer from './components/ColoredContainer'
+import Footer from './components/Footer'
 import AudienceAnalysis from './components/AudienceAnalysis'
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
         <ColoredContainer />
         <AboutUs />
         <AudienceAnalysis />
+        <Footer />
       </div>
     </div>
   )

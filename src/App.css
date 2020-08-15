@@ -54,15 +54,38 @@
   background-color: rgb(30, 142, 187);
   border-radius: 5px;
 }
-.location {
+.main-content .location {
   background-color: rgb(2, 2, 73);
   padding: 20px;
+  margin: 30px 0;
   text-align: center;
   font-size: 2rem;
   color: white;
   font-weight: 800;
 }
+.main-content .audience-analysis .audience-analysis-text {
+  background-color: rgb(30, 142, 187);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+}
+.main-content .audience-analysis .audience-analysis-text-reason {
+  background-color: rgb(199, 198, 198);
+  color: rgb(9, 9, 73);
+  padding: 5px;
+  text-align: left;
+  font-size: 2rem;
+  font-weight: 800;
+}
 
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: skyblue;
+  color: black;
+}
 @media only screen and (max-width: 1000px) {
   .container .colored-content-container {
     grid-template-columns: repeat(2, 1fr);
