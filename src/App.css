@@ -86,27 +86,89 @@
 .main-content .audience-analysis .compass .c1 .nc {
   background-color: rgb(30, 142, 187);
   padding: 5px;
-  text-align: left;
   font-size: 2rem;
   font-weight: 500;
 }
 .main-content .audience-analysis .compass .c1 .ne {
   background-color: rgb(9, 9, 73);
   padding: 5px;
-  text-align: left;
   font-size: 2rem;
   font-weight: 500;
 }
 .main-content .audience-analysis .compass .c1 .nw {
   background-color: green;
   padding: 5px;
-  text-align: left;
   font-size: 2rem;
   font-weight: 500;
 }
 .main-content .audience-analysis .compass .c2 {
   padding: none;
+  text-align: right;
   color: white;
+}
+.main-content .audience-analysis .compass .c2 .ss {
+  background-color: orange;
+  padding: 5px;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.main-content .audience-analysis .compass .c2 .se {
+  background-color: rgb(9, 9, 73);
+  padding: 5px;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.main-content .audience-analysis .compass .c2 .sw {
+  background-color: green;
+  padding: 5px;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.role {
+  display: flex;
+  color: white;
+  background-color: rgb(9, 9, 73);
+  justify-content: space-between;
+}
+.role .icons-container > img {
+  width: 10rem;
+}
+.role .roles {
+  display: flex;
+  flex-flow: column;
+  padding: 20px;
+}
+.role .roles .role-header {
+  font-size: 1.5rem;
+}
+.role .roles hr {
+  background-color: white;
+  height: 2px;
+}
+.role .roles .role-list {
+  color: rgb(9, 9, 73);
+  font-size: 1.5rem;
+}
+.role .roles .role-list .students {
+  background-color: orange;
+  padding: 0 5px;
+}
+.role .roles .role-list .developer {
+  background-color: white;
+  padding: 0 5px;
+}
+.role .roles .role-list .designer {
+  background-color: rgb(30, 142, 187);
+  padding: 0 5px;
+}
+.role .roles .role-list .enterpreneur {
+  background-color: orange;
+  padding: 0 5px;
+}
+.role .roles .role-list .others {
+  background-color: green;
+  padding: 0 5px;
 }
 .footer {
   text-align: center;
@@ -130,6 +192,19 @@
   }
   .about-us > p {
     padding: unset;
+  }
+  .role .icons-container > img {
+    display: none;
+  }
+  .role .roles {
+    width: 100%;
+    padding: 10px;
+  }
+  .role .roles .role-header {
+    margin: 0 auto;
+  }
+  .role .roles .role-list {
+    margin: 0 auto;
   }
 }
 
@@ -164,5 +239,25 @@
     padding: 5px;
     font-size: 1rem;
     font-weight: 300;
+  }
+  .main-content .audience-analysis .compass .c2 .ss {
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  .main-content .audience-analysis .compass .c2 .se {
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  .main-content .audience-analysis .compass .c2 .sw {
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  .role .roles .role-list {
+    font-size: 1rem;
+    display: flex;
+    flex-flow: row wrap;
   }
 }
