@@ -1,11 +1,12 @@
-import React from 'react'
-import AppBar from './components/AppBar'
-import AboutUs from './components/AboutUs'
-import ColoredContainer from './components/ColoredContainer'
-import Footer from './components/Footer'
-import AudienceAnalysis from './components/AudienceAnalysis'
-import Roles from './components/Roles'
-import Interests from './components/Interests'
+import React from "react";
+import AppBar from "./components/AppBar";
+import AboutUs from "./components/AboutUs";
+import ColoredContainer from "./components/ColoredContainer";
+import Footer from "./components/Footer";
+import AudienceAnalysis from "./components/AudienceAnalysis";
+import Roles from "./components/Roles";
+import Interests from "./components/Interests";
+import Teamsection from "./components/Teamsection";
 
 const App = () => {
   return (
@@ -16,7 +17,7 @@ const App = () => {
         <ColoredContainer />
         <div className="main-content">
           <p className="location">
-            {' '}
+            {" "}
             <img
               src="https://img.icons8.com/wired/64/000000/region-code.png"
               alt="Location"
@@ -25,12 +26,13 @@ const App = () => {
           </p>
           <AudienceAnalysis />
           <Roles />
+          <Teamsection />
         </div>
         <Interests />
         <Footer />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
