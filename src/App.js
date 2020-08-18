@@ -12,8 +12,8 @@ const App = () => {
     <div className="App">
       <AppBar />
       <div className="container">
-        <ColoredContainer />
         <AboutUs />
+        <ColoredContainer />
         <div className="main-content">
           <p className="location">
             {' '}
