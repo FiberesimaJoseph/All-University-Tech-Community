@@ -1,29 +1,24 @@
-import React from 'react'
-import { Navbar, Nav, Button } from 'react-bootstrap'
+import React from "react";
+import { Navbar, Nav, Button } from "react-bootstrap";
 
 const AppBar = () => {
   const appBarLinks = [
     {
-      title: 'Home',
-      url: '#',
-      class: 'home',
+      title: "Home",
+      url: "#",
+      class: "home",
     },
     {
-      title: 'About Us',
-      url: '#',
-      class: 'about',
+      title: "About Us",
+      url: "#",
+      class: "about",
     },
     {
-      title: 'Our Mission',
-      url: '#',
-      class: 'mission',
+      title: "Be a Chapter Lead",
+      url: "#",
+      class: "join",
     },
-    {
-      title: 'Join us',
-      url: '#',
-      class: 'join',
-    },
-  ]
+  ];
   return (
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
       <Navbar.Brand href="#home">
@@ -43,7 +38,7 @@ const AppBar = () => {
         </Nav>
       </Navbar.Collapse>
     </Navbar>
-  )
-}
+  );
+};
 
-export default AppBar
+export default AppBar;
