@@ -1,0 +1,15 @@
+.header {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.Members {
+  padding: 0 5px;
+  color: white;
+  background-color: green;
+  border-radius: 5px;
+}
+.Team {
+  display: flex;
+  flex-flow: row wrap;
+}
