@@ -1,0 +1,16 @@
+.team .team-heading {
+  text-align: center;
+}
+.team .team-heading > .green {
+  padding: 0 5px;
+  color: white;
+  background-color: green;
+  border-radius: 5px;
+}
+.team .team-members {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
