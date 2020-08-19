@@ -1,8 +1,8 @@
-import React from 'react'
-import { Card } from 'react-bootstrap'
+import React from "react";
+import { Card } from "react-bootstrap";
 
 const Teamsection = () => {
-  const names = [1, 2, 3, 4, 5, 6]
+  const names = [1, 2, 3, 4, 5, 6];
   return (
     <div className="team">
       <h1 className="team-heading">
@@ -10,7 +10,7 @@ const Teamsection = () => {
       </h1>
       <div className="team-members">
         {names.map((n) => (
-          <Card style={{ width: '18rem', margin: '10px auto' }}>
+          <Card style={{ width: "18rem", margin: "10px auto" }}>
             <Card.Img variant="small" src="https://picsum.photos/200" />
             <Card.Body>
               <Card.Title>Name {n}</Card.Title>
@@ -23,7 +23,7 @@ const Teamsection = () => {
         ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Teamsection
+export default Teamsection;
