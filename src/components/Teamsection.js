@@ -6,7 +6,7 @@ const Teamsection = () => {
     {
       name: "Gino Osahon",
       role: "Co-organizer",
-      image: "",
+      image: "ginoosahon.jpg",
       social: [
         { name: "Twitter", link: "https://twitter.com/Ginowinne" },
         {
@@ -76,12 +76,7 @@ const Teamsection = () => {
             style={{ width: "18rem", margin: "10px auto" }}
             className="costum-card"
           >
-            <Card.Img
-              variant="small"
-              src={p.image}
-              alt={p.name}
-              style={{ height: "300px" }}
-            />
+            <Card.Img variant="small" src={p.image} alt={p.name} />
             <Card.Body>
               <Card.Title>
                 <h3>{p.name}</h3>
