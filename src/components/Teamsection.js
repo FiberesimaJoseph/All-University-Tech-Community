@@ -34,7 +34,7 @@ const Teamsection = () => {
     },
     {
       name: "Joseph Fiberesima",
-      role: "Social Media Handle",
+      role: "Co-organizer",
       image: "josephfiberesima.jpg",
       social: [
         { name: "Twitter", link: " https://twitter.com/JosephFiberesi1" },
