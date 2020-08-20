@@ -1,12 +1,12 @@
 import React from "react";
-import { Card } from "react-bootstrap";
+import SingleCard from "./SingleCard";
 
 const Teamsection = () => {
   const persons = [
     {
       name: "Gino Osahon",
       role: "Co-organizer",
-      image: "ginoosahon.jpg",
+      image: "ginoosahon2.jpg",
       social: [
         { name: "Twitter", link: "https://twitter.com/Ginowinne" },
         {
@@ -30,7 +30,8 @@ const Teamsection = () => {
         "XML",
         "JavaScript",
       ],
-      bio: "",
+      bio:
+        "Gino Osahon considers himself first to be a developer and startup advocate, he is a trained software engineer (Java Technology) and has passion for youth community building. He loves providing mentorship and resources for young people interested in technology and encourages them to leverage it in solving social and civic challenges. He has over 5 years experience in community development, experience gained from being the community leader for GDG Port Harcourt, GDG Cloud Port Harcourt, and DefCon Port Harcourt. He is currently the Hub Manager for Ken Saro-Wiwa Innovation Hub from where he carries out his duties as a developer and startup advocate.",
     },
     {
       name: "Joseph Fiberesima",
@@ -61,7 +62,59 @@ const Teamsection = () => {
         "Facilitator",
         "Tech Evangelist",
       ],
-      bio: "",
+      bio:
+        "Joseph Fiberesima is a software developer and has passion in building community, open source  and  mentorship, he has a great skill set of providing mentorship for young and teen to acquire technological skills. He has over 3 years of experience as a developer, community builder and business oriented.experience gained from being the community leader  and a mentor  for MLH port  Harcourt  and Ken Saro Wiwa Innovation Hub.He is currently the CEO of Springcode and the Software Consultant  for UrbanDev Studios. Over the years, he has  gained experience building software that solves real-life problems and loves Open source. ",
+    },
+    {
+      name: "Ray Okaah",
+      role: "Exec Director",
+      image: "none",
+      social: [
+        { name: "Twitter", link: "https://twitter.com/rayscode" },
+        {
+          name: "Linkedin",
+          link: "https://www.linkedin.com/in/ray-okaah-31ba449a/",
+        },
+        {
+          name: "Email",
+          link: "mailto:ray@autcnigeria.org",
+        },
+      ],
+      skills: ["Product Manager", "Software Developer"],
+      bio:
+        "Ray Okaah is a lover of products and tech. He enjoys the creation and building process. When he is not managing a project, or writing code, he is probably enjoying another episode of family guy.",
+    },
+    {
+      name: "Stephen Oladele",
+      role: "Board Chairman",
+      image: "stephenoladele.png",
+      social: [
+        { name: "Twitter", link: "https://twitter.com/nerdCyberArtist" },
+        {
+          name: "Linkedin",
+          link: "https://www.linkedin.com/in/stephenoladele/",
+        },
+      ],
+      skills: [
+        "Python",
+        "machine Learning",
+        "instructional design",
+        "database management",
+        "hadoop",
+        "spark",
+        "organizational management",
+        "non-profit leadership",
+        "program management",
+        "community building",
+        "facilitator",
+        "software engineering",
+        "SQL",
+        "Google Cloud Platform",
+        "Microsoft Azure ML Studio",
+        "AWS SageMaker",
+      ],
+      bio:
+        "Stephen F. Oladele is passionate about science and technology, using those to create commercial and social value, as well as to develop human capacity. He is also here, on earth, to learn and to teach, making an impact in everything he does and developing the available potential in everyone he meets. Youth, people development is at the core of his ambitions. Building the future of humanity with exponential technologies is what he envisions. Be willing to teach what you know; don't forget to stay teachable as well. ",
     },
   ];
   return (
@@ -71,39 +124,7 @@ const Teamsection = () => {
       </h1>
       <div className="team-members">
         {persons.map((p, i) => (
-          <Card
-            key={i}
-            style={{ width: "18rem", margin: "10px auto" }}
-            className="costum-card"
-          >
-            <Card.Img variant="small" src={p.image} alt={p.name} />
-            <Card.Body>
-              <Card.Title>
-                <h3>{p.name}</h3>
-              </Card.Title>
-              <Card.Text>
-                <strong>Role: </strong>
-                {p.role}
-              </Card.Text>
-              {p.social.map((s, i) => (
-                <div key={i}>
-                  <strong>{s.name}: </strong>
-                  <a href={s.link} target="_blank" rel="noopener noreferrer">
-                    {s.name.toLowerCase()}
-                  </a>
-                  <br />
-                </div>
-              ))}
-              <Card.Text>
-                <strong>
-                  <em>Skills: </em>
-                </strong>
-                {p.skills.map((s, i) => (
-                  <span key={i}>{s}, </span>
-                ))}
-              </Card.Text>
-            </Card.Body>
-          </Card>
+          <SingleCard person={p} index={i} />
         ))}
       </div>
     </div>

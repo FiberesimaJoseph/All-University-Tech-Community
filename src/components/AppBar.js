@@ -5,22 +5,22 @@ const AppBar = () => {
   const appBarLinks = [
     {
       title: "Home",
-      url: "#",
+      url: "/",
       class: "home",
     },
     {
       title: "About Us",
-      url: "#",
+      url: "#about",
       class: "about",
     },
     {
-      title: "Be a Chapter Lead",
-      url: "#",
+      title: "Our Team",
+      url: "#team",
       class: "join",
     },
   ];
   return (
-    <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+    <Navbar collapseOnSelect expand="lg" className="appbar">
       <Navbar.Brand href="#home">
         <img src="logo.png" alt="logo" className="logo" />
       </Navbar.Brand>

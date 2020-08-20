@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 const AboutUs = () => {
   return (
     <div className="about-us">
-      <h1>
+      <h1 id="#about">
         All University Tech <span className="conference">Conference</span>
       </h1>
       <p>
@@ -13,7 +13,7 @@ const AboutUs = () => {
         across the geo-political zones of Nigeria through techology.
       </p>
     </div>
-  )
-}
+  );
+};
 
-export default AboutUs
+export default AboutUs;
