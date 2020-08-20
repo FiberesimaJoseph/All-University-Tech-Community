@@ -7,14 +7,14 @@ import AudienceAnalysis from "./components/AudienceAnalysis";
 import Roles from "./components/Roles";
 import Interests from "./components/Interests";
 import Teamsection from "./components/Teamsection";
-import Carousel from "./components/Carousel";
+import Slider from "./components/Slider";
 
 const App = () => {
   return (
     <div className="App">
       <AppBar />
+      <Slider />
       <div className="container">
-        <Carousel />
         <AboutUs />
         <ColoredContainer />
         <div className="main-content">
