@@ -124,7 +124,7 @@ const Teamsection = () => {
       </h1>
       <div className="team-members">
         {persons.map((p, i) => (
-          <SingleCard person={p} index={i} />
+          <SingleCard person={p} key={i} />
         ))}
       </div>
     </div>

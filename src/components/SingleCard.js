@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import { Card } from "react-bootstrap";
 
-const SingleCard = ({ person, index }) => {
+const SingleCard = ({ person }) => {
   const [readMore, setReadMore] = useState(false);
 
   return (
     <Card
-      key={index}
       style={{ width: "18rem", margin: "10px auto" }}
       className="costum-card"
     >
