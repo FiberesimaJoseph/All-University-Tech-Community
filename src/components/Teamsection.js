@@ -68,7 +68,7 @@ const Teamsection = () => {
     {
       name: "Ray Okaah",
       role: "Exec Director",
-      image: "none",
+      image: "rayokaah.jpg",
       social: [
         { name: "Twitter", link: "https://twitter.com/rayscode" },
         {
